@@ -35,5 +35,6 @@ Instead of animating opacity or transforms, elements are hidden using `clip-path
 
 ```css
 .image {
-  clip-path: inset(0 0 100% 0);
+   clip-path: polygon(25% 25%, 75% 40%, 100% 100%, 0% 100%);
+   will-change: clip-path;
 }
